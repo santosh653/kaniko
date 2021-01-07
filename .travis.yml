@@ -1,3 +1,17 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : Kaniko
+# Source Repo         : https://github.com/GoogleContainerTools/kaniko
+# Travis Job Link     : https://travis-ci.com/github/santosh653/kaniko
+# Created travis.yml  : No
+# Maintainer          : Santosh Kulkarni <santoshkulkarni70@gmail.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
+arch:
+  - amd64
+  - ppc64le
 language: go
 os: linux
 dist: bionic
